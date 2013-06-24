@@ -1,0 +1,46 @@
+ body {
+        padding-top: 80px;
+        background-color: $white;
+        }
+  /* Remove any padding from the body */
+@media (max-width: 767px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+// サイト内リンク調整
+#wrapper{
+    padding-top: 70px;
+  margin-top: -70px;
+}
+// navigation
+.navbar .nav > li{
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+// carousel-control
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+      font-family: $sansFontFamily;
+    }
+
+//Face Book Like Box Liquid
+div.fb_iframe_widget,
+div.fb_iframe_widget iframe[style],
+div.fb_iframe_widget span {
+    width: 100% !important;
+    max-width: 1170px;
+    display: block;
+}
+.fb-like-box{
+    margin: 0 auto;
+    max-height: 300px;
+}

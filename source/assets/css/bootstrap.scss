@@ -1,0 +1,67 @@
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+// Core variables and mixins
+@import "partial/variables"; // Modify this for custom colors, font-sizes, etc
+@import "partial/mixins";
+
+// CSS Reset
+@import "partial/reset";
+
+// Grid system and page structure
+@import "partial/scaffolding";
+@import "partial/grid";
+@import "partial/layouts";
+
+// Base CSS
+@import "partial/type";
+@import "partial/code";
+@import "partial/forms";
+@import "partial/tables";
+
+// Components: common
+// @import "partial/sprites";
+@import "partial/elusive-webfont.scss";
+@import "partial/dropdowns";
+@import "partial/wells";
+@import "partial/component-animations";
+@import "partial/close";
+
+// Components: Buttons & Alerts
+@import "partial/buttons";
+@import "partial/button-groups";
+@import "partial/alerts"; // Note: alerts share common CSS with buttons and thus have styles in buttons
+
+// Components: Nav
+@import "partial/navs";
+@import "partial/navbar";
+@import "partial/breadcrumbs";
+@import "partial/pagination";
+@import "partial/pager";
+
+// Components: Popovers
+@import "partial/modals";
+@import "partial/tooltip";
+@import "partial/popovers";
+
+// Components: Misc
+@import "partial/thumbnails";
+@import "partial/media";
+@import "partial/labels-badges";
+@import "partial/progress-bars";
+@import "partial/accordion";
+@import "partial/carousel";
+@import "partial/hero-unit";
+
+// Utility classes
+@import "partial/utilities"; // Has to be last to override when necessary
+
+// original
+@import "partial/original";
